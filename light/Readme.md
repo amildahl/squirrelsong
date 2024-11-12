@@ -17,6 +17,7 @@
 - [Slack](../themes/Slack)
 - [Sublime Text](../themes/Sublime%20Text)
 - [Telegram](../themes/Telegram)
+- [Vim](../themes/Vim)
 - [Visual Studio Code](../themes/VSCode)
 - [Vivaldi](../themes/Vivaldi)
 

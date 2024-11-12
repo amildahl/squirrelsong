@@ -14,7 +14,7 @@ Set `g:squirrelsong_color_only` to `v:true` beforehand to disable additional sty
 {
   "sapegin/squirrelsong",
   config = function(plugin)
-    vim.opt.rtp:append(plugin.dir .. "/light/Vim")
+    vim.opt.rtp:append(plugin.dir .. "/themes/Vim")
   end,
 }
 ```
@@ -22,7 +22,7 @@ Set `g:squirrelsong_color_only` to `v:true` beforehand to disable additional sty
 ## Installation with [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
-use { 'sapegin/squirrelsong', rtp = 'light/Vim' }
+use { 'sapegin/squirrelsong', rtp = 'themes/Vim' }
 ```
 
 ## Installation with [vim-plug](https://github.com/junegunn/vim-plug)
@@ -30,11 +30,11 @@ use { 'sapegin/squirrelsong', rtp = 'light/Vim' }
 ```vim
 call plug#begin()
   ...
-  Plug 'sapegin/squirrelsong', { 'rtp': 'light/Vim' }
+  Plug 'sapegin/squirrelsong', { 'rtp': 'themes/Vim' }
   ...
 call plug#end()
 ```
 
 ## Installation from GitHub
 
-Put [`squirrelsong_light.vim`](squirrelsong_light.vim) in the `colors` directory somewhere on your `'rtp'`. `:echo &rtp` will print your `'rtp'`.
+Put [`squirrelsong_light.vim`](colors/squirrelsong_light.vim) in the `colors` directory somewhere on your `'rtp'`. `:echo &rtp` will print your `'rtp'`.
